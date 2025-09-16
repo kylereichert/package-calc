@@ -8,11 +8,9 @@ import (
 func main() {
 	fmt.Println("testing")
 
-	test1 := materials.Test{
-		Name: "Jimbo",
-		Age: 30,
-		City: "Cool Zone",
+	test := materials.Materials {
+		Rebar10M: 15,
 	}
 
-	fmt.Println(test1.Name)
+	fmt.Println(test.Rebar10M)
 }
