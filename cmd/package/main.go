@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("testing")
 
-	test := materials.Materials {
+	test := materials.Materials{
 		Rebar10M: 15,
 	}
 
